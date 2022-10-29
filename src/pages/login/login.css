@@ -1,0 +1,45 @@
+.loginPageContainer {
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+.loginPageTitle{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+.loginPageForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.loginPageInput {
+  width: 60%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.loginPageSubmitButton {
+  width: 60%;
+  border: none;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: rgb(21, 21, 246);
+  cursor: pointer;
+}
