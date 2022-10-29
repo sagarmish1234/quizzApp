@@ -1,0 +1,22 @@
+server:
+  port: 5000
+
+spring:
+  datasource:
+    initialization-mode: always
+    url: jdbc:mysql://localhost:3306/quizzApp?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true
+    username: root
+    password: P@ssw0rd
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto : update
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+
+
